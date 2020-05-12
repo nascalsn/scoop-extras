@@ -8,8 +8,8 @@
     "extract_dir": "CUETools_2.1.6",
     "post_install": "Remove-Item \"$dir\\user_profiles_enabled\"",
     "persist": [
-        "CUE Tools/settings.txt",
-        "CUERipper/settings.txt"
+        "CUE Tools/",
+        "CUERipper/"
     ],
     "bin": [
         "CUERipper.exe",
