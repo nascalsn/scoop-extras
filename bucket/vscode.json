@@ -19,6 +19,9 @@
             "Visual Studio Code"
         ]
     ],
+    "env_add_path": [
+        "bin"
+    ],
     "post_install": [
         "if (Test-Path \"$dir\\vscode-install-context.reg\") {",
         "  $codepath = \"$dir\\Code.exe\".Replace('\\', '\\\\')",
